@@ -29,23 +29,23 @@ environments:
   key: dev
   repository: environment-tia-tequila-dev
 - ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
+    domain: cjxd.sharepointoscar.com
+    externalDNS: true
+    namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: me@sharepointoscar.com
+      enabled: true
+      production: true
   key: staging
   repository: environment-tia-tequila-staging
 - ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
+    domain: cjxd.sharepointoscar.com
+    externalDNS: true
+    namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: me@sharepointoscar.com
+      enabled: true
+      production: true
   key: production
   repository: environment-tia-tequila-production
 gitops: true
