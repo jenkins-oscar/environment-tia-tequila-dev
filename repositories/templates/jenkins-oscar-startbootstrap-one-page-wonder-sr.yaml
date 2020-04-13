@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: jenkins-oscar
+    provider: github
+    repository: startbootstrap-one-page-wonder
+  name: jenkins-oscar-startbootstrap-one-page-wonder
+spec:
+  description: Imported application for jenkins-oscar/startbootstrap-one-page-wonder
+  httpCloneURL: https://github.com/jenkins-oscar/startbootstrap-one-page-wonder.git
+  org: jenkins-oscar
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: startbootstrap-one-page-wonder
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/jenkins-oscar/startbootstrap-one-page-wonder.git

@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: jenkins-oscar
+  repo: startbootstrap-one-page-wonder
+  url: https://github.com/jenkins-oscar/startbootstrap-one-page-wonder.git
+  version: ""
+  versionURL: ""
