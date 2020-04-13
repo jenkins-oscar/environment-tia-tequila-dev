@@ -1,0 +1,10 @@
+adminUser:
+  password: local:tia-tequila/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkinsxio@gmail.com
+  token: local:tia-tequila/pipelineUser:token
+  username: jenkinsx-bot-sposcar
+prow:
+  hmacToken: local:tia-tequila/prow:hmacToken
