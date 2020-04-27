@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/jenkins-oscar/startbootstrap-one-page-wonder.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: jenkins-oscar
+  repo: skiapp
+  url: https://github.com/jenkins-oscar/skiapp.git
+  version: ""
+  versionURL: ""
