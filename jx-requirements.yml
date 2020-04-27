@@ -21,7 +21,7 @@ environments:
     cloud_dns_secret_name: external-dns-gcp-sa
     domain: cjxd.sharepointoscar.com
     externalDNS: true
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: .
     tls:
       email: me@sharepointoscar.com
       enabled: true
@@ -31,21 +31,21 @@ environments:
 - ingress:
     domain: cjxd.sharepointoscar.com
     externalDNS: true
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: .
     tls:
       email: me@sharepointoscar.com
-      enabled: true
-      production: true
+      enabled: false
+      production: false
   key: staging
   repository: environment-tia-tequila-staging
 - ingress:
     domain: cjxd.sharepointoscar.com
     externalDNS: true
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: .
     tls:
       email: me@sharepointoscar.com
-      enabled: true
-      production: true
+      enabled: false
+      production: false
   key: production
   repository: environment-tia-tequila-production
 gitops: true
@@ -53,7 +53,7 @@ ingress:
   cloud_dns_secret_name: external-dns-gcp-sa
   domain: cjxd.sharepointoscar.com
   externalDNS: true
-  namespaceSubDomain: -jx.
+  namespaceSubDomain: .
   tls:
     email: me@sharepointoscar.com
     enabled: true
